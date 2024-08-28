@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: bottom 80%;
+    background-size: 150%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+header {
+    position: relative;
+    padding: 20px;
+    background-color: rgba(255, 204, 0, 0.9);
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger-menu span {
+    display: block;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+    transition: 0.3s ease;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Start hidden off-screen to the left */
+    width: 300px; /* Width of the slide-in menu */
+    height: 150%; /* Full height */
+    background-color: rgba(255, 204, 0, 0.9);
+    border-right: 5px solid #2c271f;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition: left 0.3s ease-in-out; /* Smooth slide-in transition */
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 15px;
+    text-align: left; /* Align text to the left */
+    font-size: 1.5em; /* Larger text size */
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
+.menu ul li:hover {
+    background-color: #ff9900;
+}
+
+main {
+    text-align: center;
+    margin-top: 150px;
+}
+
+main h1 {
+    font-size: 3em;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('C:/Users/shriv/PR2/405638-new-kids-background-1920x1200-photos.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+#games {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.game {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.game h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.game-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.game-button:hover {
+    background-color: #e64a19;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.game-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.game-item {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* General Styles */
+
